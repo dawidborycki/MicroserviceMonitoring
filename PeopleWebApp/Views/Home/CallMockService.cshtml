@@ -1,0 +1,10 @@
+﻿@model System.Net.Http.HttpResponseMessage
+
+@{
+    ViewData["Title"] = "Call Mock Service";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Response</h2>
+    <p>@Model.StatusCode.ToString()</p>
+</div>
